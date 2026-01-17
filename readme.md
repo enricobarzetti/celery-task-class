@@ -1,10 +1,7 @@
 Added `as_task()` method:
 
 ```python
-from functools import update_wrapper
-
 from celery import Celery
-from celery import Task as BaseTask
 from celery import shared_task
 
 from celery_task_class import Task
