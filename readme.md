@@ -1,3 +1,5 @@
+Added `as_task()` method:
+
 ```python
 from functools import update_wrapper
 
