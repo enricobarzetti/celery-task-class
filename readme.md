@@ -1,4 +1,4 @@
-```
+```python
 from functools import update_wrapper
 
 from celery import Celery
@@ -36,7 +36,7 @@ my_task2 = MyTask2.as_task()
 
 Caller:
 
-```
+```python
 from mycode import my_task
 
 my_task.delay()
